@@ -25,3 +25,5 @@ pids
 .env
 .env.test
 
+# configuration files
+firebase_rules.txt
