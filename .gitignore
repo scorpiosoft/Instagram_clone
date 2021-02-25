@@ -1,5 +1,7 @@
-# Dependency directories
+# dependencies
 node_modules/
+.pnp/
+.pnp.js
 
 # Logs
 logs
@@ -21,9 +23,21 @@ pids
 # Optional eslint cache
 .eslintcache
 
-# dotenv environment variables file
-.env
-.env.test
-
 # configuration files
 firebase_rules.txt
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env
+.env.test
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
