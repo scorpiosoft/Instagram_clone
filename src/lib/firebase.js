@@ -10,4 +10,5 @@ const config =
   measurementId: "G-Y8YEMZLPR0"
 };
 const firebase = window.firebase.initializeApp(config);
-export {firebase};
+const { FieldValue } = window.firebase.firestore;
+export { firebase, FieldValue };
