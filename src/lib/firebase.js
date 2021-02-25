@@ -1,3 +1,5 @@
+import { seedDatabase } from '../seed';
+
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const config =
 {
@@ -11,4 +13,7 @@ const config =
 };
 const firebase = window.firebase.initializeApp(config);
 const { FieldValue } = window.firebase.firestore;
+
+seedDatabase(firebase);
+
 export { firebase, FieldValue };
